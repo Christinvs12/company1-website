@@ -22,7 +22,7 @@ pipeline {
     stage('Run docker container') {
       steps {
         echo 'Running Docker container'
-        bat 'docker run -d -p 8070:80 company1-website'
+        bat 'docker run -d -p 8090:80 company1-website'
       }
     }
   }
